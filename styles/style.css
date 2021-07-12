@@ -1,0 +1,275 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Alegreya', serif;
+}
+
+/********* Navbar section CSS *********/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 15%;
+}
+
+.logo-img {
+	cursor: pointer;
+	margin-right: auto;
+	width: 290px;
+}
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav-links li a {
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+	font-size: 20px;
+	color: #2c3e50;
+}
+
+.nav-links li a:hover {
+	color: #e74c3c;
+}
+
+/* top-section-container CSS Style */
+.top-section {
+	background-color: #fff9f4;
+}
+.container {
+	width: 1170px;
+	margin: auto;
+}
+
+.top-section-items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.item {
+	width: 50%;
+}
+.item img {
+	width: 75%;
+	margin: auto;
+}
+
+.item h1 {
+	font-size: 80px;
+	font-weight: 700;
+	color: #363958;
+}
+
+.item span {
+	color: #fa804c;
+}
+
+.item p {
+	font-size: 16px;
+	text-align: justify;
+	padding-right: 50px;
+}
+.item a {
+	display: inline-block;
+	margin-top: 24px;
+	border-radius: 10px;
+	background-color: #3b4ce6;
+	color: white;
+	text-decoration: none;
+	padding: 15px 25px;
+}
+.item a i {
+	margin-right: 10px;
+}
+
+/* Middle section */
+
+.products {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.product {
+	width: 100%;
+	margin-top: 31px;
+}
+
+.section-title {
+	margin-top: 49px;
+	font-size: 48px;
+	line-height: 48px;
+	color: #363958;
+}
+.product-imag img {
+	width: 100%;
+}
+
+/* buying info */
+.product {
+	width: 370px;
+	background: #ffffff;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+		rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	border-radius: 20px;
+}
+
+.product-description {
+	margin: 22px;
+}
+.product-description h3 {
+	font-size: 24px;
+	line-height: 28px;
+}
+.product-description p {
+	font-size: 16px;
+	line-height: 26px;
+	text-align: justify;
+}
+
+.buying-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 22px;
+}
+
+.buying-info .price {
+	font-size: 36px;
+	line-height: 42px;
+	color: #fa804c;
+	font-weight: 700;
+}
+
+.buying-info a {
+	border-radius: 10px;
+	background-color: #3b4ce6;
+	color: white;
+	text-decoration: none;
+	padding: 15px 25px;
+}
+
+.buying-info a i {
+	margin-right: 10px;
+}
+
+/* Fit section CSS */
+
+.fit-items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px;
+}
+
+.fit-types {
+	width: 50%;
+}
+.fit-img {
+	width: 50%;
+}
+.fit-img img {
+	width: 100%;
+}
+
+.fit-types {
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	/* justify-content: space-between;
+	align-items: center; */
+	grid-gap: 20px;
+}
+
+.perfect-fit {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 489px;
+	box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px,
+		rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+	border-radius: 20px;
+}
+.perfect-fit-img img {
+	width: 100%;
+}
+
+.perfect-fit-description {
+	margin-left: 30px;
+}
+.perfect-fit-description h1 {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 700;
+}
+
+.perfect-fit-description p {
+	font-size: 16px;
+	line-height: 26px;
+	text-align: justify;
+}
+
+.free-exchanges {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 489px;
+	box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px,
+		rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+	border-radius: 20px;
+}
+.free-exchanges-img img {
+	width: 100%;
+}
+
+.free-exchangest-description {
+	margin-left: 30px;
+}
+
+.free-exchangest-description h1 {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 700;
+}
+
+.free-exchangest-description p {
+	font-size: 16px;
+	line-height: 26px;
+	text-align: justify;
+}
+.cotact-seller {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 489px;
+	box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px,
+		rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+	border-radius: 20px;
+}
+.cotact-seller-img img {
+	width: 100%;
+}
+.cotact-seller-description {
+	margin-left: 30px;
+}
+
+.cotact-seller-description h1 {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 700;
+}
+
+.cotact-seller-description p {
+	font-size: 16px;
+	line-height: 26px;
+	text-align: justify;
+}
